@@ -1,0 +1,54 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[warn] No sbt.version set in project/build.properties, base directory: /home/michelenardini/Scrivania/Snake-Scala
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 21.0.2)
+[debug] Load.defaultLoad until apply took 119.628093ms
+[debug]     Load.loadUnit: plugins took 268.638614ms
+[debug]     Load.loadUnit: defsScala took 0.202157ms
+[debug] [Loading] Scanning directory /home/michelenardini/Scrivania/Snake-Scala
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/michelenardini/Scrivania/Snake-Scala, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 15.383248 ms
+[debug]         Load.resolveProject(snake-scala) took 39.144845ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id snake-scala, base: /home/michelenardini/Scrivania/Snake-Scala, plugins: List(<none>))) took 71.001244ms
+[debug] [Loading] Done in /home/michelenardini/Scrivania/Snake-Scala, returning: (snake-scala)
+[debug]     Load.loadUnit: loadedProjectsRaw took 86.701707ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.191734ms
+[debug]   Load.loadUnit(file:/home/michelenardini/Scrivania/Snake-Scala/, ...) took 361.327164ms
+[debug] Load.apply: load took 632.998215ms
+[debug] Load.apply: resolveProjects took 4.372214ms
+[debug] Load.apply: finalTransforms took 53.979409ms
+[debug] Load.apply: config.delegates took 6.421542ms
+[debug] Load.apply: Def.make(settings)... took 541.511031ms
+[debug] Load.apply: structureIndex took 125.25542ms
+[debug] Load.apply: mkStreams took 1.688401ms
+[info] set current project to snake-scala (in build file:/home/michelenardini/Scrivania/Snake-Scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/michelenardini/.sbt/1.0/server/6c9e7b782ed637ac7068/sock
+[debug] Writing bsp connection file
+[info] started sbt server
